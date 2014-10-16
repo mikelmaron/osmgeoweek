@@ -402,3 +402,9 @@ section:target { display:block!important; }
     padding:10px 5px;
     }
 }
+
+.project-tile {
+  width: 323px;
+  float: left;
+  margin: 5px;
+}
