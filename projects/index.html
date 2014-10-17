@@ -9,47 +9,19 @@ title: Projects
   </div>
 </div>
 
+{% for post in site.categories.project %}
+
 <div class='limiter pad4y clearfix'>
 
     <div class='keyline-all pad4 space-bottom4 project-tile'>
-      <h2>More info soon on how to organize your event</h2>
-      <h3>TeachOSM</h3>
-      <p class='quiet'>lesson plans<br/>
-        for your classroom
-      </p>
-    </div>
-
-    <div class='keyline-all pad4 space-bottom4 project-tile'>
-      <ul>
-<li>Your event can be an outside surveying event or an inside editing event.</li>
-<li>Design your event friendly to newcomers, make sure there's someone available to instruct on how to survey using Field_Papers and how to edit OpenStreetMap using the Id editor.</li>
-<li>Your event location should preferably have fast internet, comfortable seating, and work tables. If you're working at a school, bear in mind that their technologies might be constrained (older equipment, no admin privileges, etc.) and plan for work-arounds.</li>
-<li>Changes committed to OpenStreetMap should contain the hashtag, #GAW in the changeset comment.</li>
-<li>Link to a post-event survey to gauge interest and ideas for improving future events.</li>
-       </ul>
-    </div>
-
-   <div class='keyline-all pad4 space-bottom4 project-tile'>
-      <ul>
-<li>Your event can be an outside surveying event or an inside editing event.</li>
-<li>Design your event friendly to newcomers, make sure there's someone available to instruct on how to survey using Field_Papers and how to edit OpenStreetMap using the Id editor.</li>
-<li>Your event location should preferably have fast internet, comfortable seating, and work tables. If you're working at a school, bear in mind that their technologies might be constrained (older equipment, no admin privileges, etc.) and plan for work-arounds.</li>
-<li>Changes committed to OpenStreetMap should contain the hashtag, #GAW in the changeset comment.</li>
-<li>Link to a post-event survey to gauge interest and ideas for improving future events.</li>
-       </ul>
-    </div>
-
-   <div class='keyline-all pad4 space-bottom4 project-tile'>
-      <ul>
-<li>Your event can be an outside surveying event or an inside editing event.</li>
-<li>Design your event friendly to newcomers, make sure there's someone available to instruct on how to survey using Field_Papers and how to edit OpenStreetMap using the Id editor.</li>
-<li>Your event location should preferably have fast internet, comfortable seating, and work tables. If you're working at a school, bear in mind that their technologies might be constrained (older equipment, no admin privileges, etc.) and plan for work-arounds.</li>
-<li>Changes committed to OpenStreetMap should contain the hashtag, #GAW in the changeset comment.</li>
-<li>Link to a post-event survey to gauge interest and ideas for improving future events.</li>
-       </ul>
+      <h2>{{ post.title }}</h2>
+      <h3>{{ post.subtitle }}</h3>
+      <p>{{ post.content }}</p>
     </div>
 
 </div>
+
+{% endfor %}
 
 <!--
 <script>
