@@ -1,3 +1,10 @@
 .DS_Store
 /_site
 *~
+
+# keep personal configuration out of the repo
+# (although agreeing on a .ruby-version, .ruby-gemset, and Gemfile might not be a bad idea)
+.idea/
+.ruby-*
+Gemfile*
+
