@@ -82,7 +82,9 @@ a:hover { color:#68c7dd; }
 .liner {
   z-index:10000;
   }
-
+.site-navigation a {
+  margin-right: 25px
+  }
 .site-navigation a,
 .site-navigation a:hover {
   color:#fff;
