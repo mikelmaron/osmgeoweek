@@ -4,7 +4,7 @@ title: Stamen Design
 day: Saturday
 time: "12:00am - 6:00pm"
 speaker:  Alan McConchie
-twitter: mapgive
+twitter:  mappingmashups
 organization: Stamen Design
 permalink: "/event/stamen-design/"
 tags: 
