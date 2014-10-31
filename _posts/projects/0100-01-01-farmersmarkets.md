@@ -6,7 +6,7 @@ category: project
 
 We plan to map local farmer’s markets to include where the vendors are coming from.  We would like to discuss details of the topic with GMU and OSM organizers.  One outcome will be OSM Tasking Manager assignments.
  
-We found these resources online. Participants should use them to look up the information local farmers markets and then add them to OSM. 
+Below are some helpful starting points for mapping farmers markets. Participants should use them to look up the information local farmers markets and then add them to OSM. 
 
 <a href="http://www.usdalocalfooddirectories.com/listings.html">1. USDA's Directory of Farmers Markets</a>
 </br>
