@@ -8,5 +8,6 @@ We plan to map local farmer’s markets to include where the vendors are coming 
  
 We found these two resources online. Participants could look up the information using the sources below and then add information to OSM. 
 
-<a href="http://www.usdalocalfooddirectories.com/listings.html">http://www.usdalocalfooddirectories.com/listings.html</a>
-<a href="http://nfmd.org/?s=ac">http://nfmd.org/?s=ac</a>
+<a href="http://www.usdalocalfooddirectories.com/listings.html">USDA's Directory of Farmers Markets</a>
+</br>
+<a href="http://nfmd.org/?s=ac">National Farmers Market Directory</a>
