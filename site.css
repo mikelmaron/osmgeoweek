@@ -151,16 +151,16 @@ input[type='submit'],
 /* Sponsors
 ---------------------------------------------- */
 .sponsor {
-  background:transparent url(img/sprite@2x.png) no-repeat 0 0;
-    -webkit-background-size:780px 360px;
-            background-size:780px 360px;
   display:inline-block;
   vertical-align:middle;
   text-indent:-999em;
-  overflow:hidden;
-  width:160px;
-  height:60px;
+  background-repeat: no-repeat;
   }
+
+  .sponsor.natgeo        { background-image: url(img/logos/natgeo.jpg); width: 311px; height: 126px;}
+  .sponsor.hot           { background-image: url(img/logos/HOT.png); width: 259px; height: 60px;}
+  .sponsor.mapgive       { background-image: url(img/logos/mapgive.png); width: 218px; height: 56px;}
+  .sponsor.osmus         { background-image: url(img/logos/osmus.png); width: 275px; height: 127px; }
 
   /* Diamond */
   .sponsor.craigslist    { background-position:-520px 0; }
