@@ -11,6 +11,8 @@ tags:
   - presaturday
 category: event
 published: true
+lat: 37.765023
+lon: -122.419347
 ---
 
 Event at Stamen Design 2017 Mission Street, San Francisco, CA
