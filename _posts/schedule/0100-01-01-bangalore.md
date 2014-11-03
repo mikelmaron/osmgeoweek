@@ -11,6 +11,8 @@ tags:
   - friday
 category: event
 published: true
+lat: 13.00059
+lon: 77.62421
 ---
 
 <a href="http://7high.in/">No. 7,  High Street, Cooke Town, Bangalore</a>
