@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Aberdeen/MapHack/2014-11"
+title: "Aberdeen MapHack"
 day: Saturday
 time: 12:00pm - 7:00pm
 twitter: MappingParty
