@@ -9,6 +9,8 @@ organization: Maptime Boulder
 permalink: '/event/Maptime-Boulder/'
 tags: [wednesday]
 category: event
+lat:
+lon:
 ---
 GIS Day: Mapping Food Security in Boulder County with OpenStreetMap
 
