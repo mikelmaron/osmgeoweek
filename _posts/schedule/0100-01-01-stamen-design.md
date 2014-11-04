@@ -15,6 +15,4 @@ lat: 37.765023
 lon: -122.419347
 ---
 
-Event at Stamen Design 2017 Mission Street, San Francisco, CA
-
-<a href="http://www.meetup.com/Bay-Area-OpenStreetMappers/events/213663192/">Meetup</a>
+Event at Stamen Design 2017 Mission Street, San Francisco, CA. Details on <a href="http://www.meetup.com/Bay-Area-OpenStreetMappers/events/213663192/">Meetup</a>
