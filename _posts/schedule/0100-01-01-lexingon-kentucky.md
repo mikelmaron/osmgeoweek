@@ -4,7 +4,7 @@ title: "West Sixth Brewery"
 day: Saturday
 time: 12:00am - 4:00pm
 speaker: "Jessi Breen"
-twitter: jessibreen
+twitter: @jessibreen
 permalink: '/event/west-sixth-brewery/'
 tags: [saturday]
 category: event
