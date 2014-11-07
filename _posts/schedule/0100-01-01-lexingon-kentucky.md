@@ -1,8 +1,8 @@
 ---
 layout: event
-title: "West Sixth Brewery"
+title: "Lexington, Ky"
 day: Saturday
-time: 12:00am - 4:00pm
+time: 12:00pm - 4:00pm
 speaker: "Jessi Breen"
 twitter: jessibreen
 permalink: '/event/west-sixth-brewery/'
