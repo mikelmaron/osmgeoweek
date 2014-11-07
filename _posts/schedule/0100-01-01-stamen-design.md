@@ -2,7 +2,7 @@
 layout: event
 title: Stamen Design, San Francisco
 day: Saturday, November 15
-time: "12:00am - 6:00pm"
+time: "12:00pm - 6:00pm"
 speaker:  Alan McConchie
 twitter:  mappingmashups
 organization: Bay Area OpenStreetMappers
