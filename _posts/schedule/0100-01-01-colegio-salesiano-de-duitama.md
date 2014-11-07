@@ -14,6 +14,5 @@ lon:-73.035009
 ---
 Location:  Duitama, Colombia
 Contact:  Leonardo Gutierrez, leo@nuevoartesano.com
-Here is the task of our area: <a refhttp://tareas.openstreetmap.co/project/2">
-Who we are:  We are a school group of openstreetmap, we are mapping areas near to our town and 
-            we are working in the farm and land details also, like crops and small farmers markets. 
+Here is the task of our area: <a href="http://tareas.openstreetmap.co/project/2">
+ 
