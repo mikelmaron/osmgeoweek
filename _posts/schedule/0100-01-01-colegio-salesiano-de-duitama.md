@@ -10,7 +10,7 @@ permalink: '/event/colegio-salesiano-de-duitama/'
 tags: [friday]
 category: event
 lat: 5.833557
-lon:-73.035009
+lon: -73.035009
 ---
 Location:  Duitama, Colombia
 
