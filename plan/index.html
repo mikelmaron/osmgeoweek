@@ -10,6 +10,17 @@ published: true
   </div>
 </div>
 
+
+<div class='limiter pad4y clearfix'>
+{% for post in site.categories.plan %}
+    <div class='keyline-all pad4 space-bottom4 project-tile'>
+      <h2><a href="{{post.permalink}}">{{ post.title }}</a></h2>
+      <h3>{{ post.subtitle }}</h3>
+      <p>{{ post.excerpt }}</p>
+    </div>
+{% endfor %}
+</div>
+
 <div class='limiter pad4y clearfix'>
   <div class='col8 margin2'>
 
@@ -35,6 +46,30 @@ published: true
   </div>
 </div>
 
+
+How can you help map it?
+On Friday 7 November, Guardian Cities readers like yourself will set out to map Baraka. You can join in from your bedroom – all you need is a laptop. But you won’t be alone: about 80 people will be mapping in person at Guardian HQ in London, and there are eight other simultaneous events around the world, from San Francisco to Jakarta.
+
+But how do you actually map? 
+
+1. Set up an account at OpenStreetMap.
+
+2. Watch this video and follow along.
+
+
+The video will talk you through the process of mapping, and you will practice mapping a place you’ve never visited.
+
+3. Choose a mapping task.
+
+
+Our task will be Baraka, #727. It will go live on Friday 7 November at 7.00pm GMT, at which point you’ll be able to start mapping the city.
+
+The guide is also are available here, and below are two other helpful resources:
+
+• Another excellent guide from LearnOSM.
+• The Missing Maps London launch wiki, with links to other resources.
+
+Good luck, and do please join our mapping party on Twitter using #missingmaps – we’ll tweet photos and updates as the evening progresses, and encourage you to do the same.
 <!--
 <script>
 var map = L.mapbox.map('map',  null, { infoControl: false, attributionControl: true });
