@@ -1,0 +1,18 @@
+---
+---
+{
+  "type": "FeatureCollection",
+  "features": [{% assign places = (site.posts | where: "category", "event") %}{% for place in places %}
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "{{ place.title }}",
+        "url": "{{site.url}}{{place.url}}",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [{{ place.lat }}, {{ place.lon }}]
+      }
+    }{% if forloop.rindex > 1 %},{% endif%}{% endfor %}
+  ]
+}
