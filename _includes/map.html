@@ -1,14 +1,14 @@
----
----
-<div id="map" style="min-height: 600px; margin-top: -8.5em; margin-bottom: -4em;"></div>
+<div id="map" style="min-height: 300px;"></div>
 <script>
 var map = L.mapbox.map('map',  null, { infoControl: false, attributionControl: true });
 // map.attributionControl.setPrefix('');
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '<a href="http://osm.org/copyright">&copy; OpenStreetMap contributors</a>'
 }).addTo(map);
-var featureLayer = L.mapbox.featureLayer().loadURL('/events.geojson').addTo(map);
-/* featureLayer.on('ready', function() {
+var featureLayer = L.mapbox.featureLayer().loadURL('/events.geojson',{ style: L.mapbox.simplestyle.style }).addTo(map);
+//var featureLayer = L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);
+
+ featureLayer.on('ready', function() {
   map.fitBounds(featureLayer.getBounds());
 });
 featureLayer.on('layeradd', function(e) {
@@ -22,5 +22,5 @@ featureLayer.on('layeradd', function(e) {
     minWidth: 200,
     closeButton: false
   });
-}); */
+}); 
 </script>
