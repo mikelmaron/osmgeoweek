@@ -2,6 +2,9 @@
 title: Map local farmer’s markets and vendors
 subtitle: 
 category: project
+layout: project
+tags: survey
+permalink: '/project/farmers-markets/'
 ---
 
 We plan to map local farmer’s markets to include where the vendors are coming from.  We would like to discuss details of the topic with GMU and OSM organizers.  One outcome will be OSM Tasking Manager assignments.
@@ -14,4 +17,5 @@ Below are some helpful starting points for mapping farmers markets. Participants
 </br>
 <a href="https://wiki.openstreetmap.org/wiki/Food_security">3. Tags for Food Resources on the OSM Wiki</a>
 </br>
+s
 
