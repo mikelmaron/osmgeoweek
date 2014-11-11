@@ -161,6 +161,7 @@ input[type='submit'],
   .sponsor.hot           { background-image: url(img/logos/HOT.png); width: 259px; height: 60px;}
   .sponsor.mapgive       { background-image: url(img/logos/mapgive.png); width: 218px; height: 56px;}
   .sponsor.osmus         { background-image: url(img/logos/osmus.png); width: 275px; height: 127px; }
+  .sponsor.missingmaps   { background-image: url(img/logos/missingmaps.png); width: 218px; height: 86px; }
 
   /* Diamond */
   .sponsor.craigslist    { background-position:-520px 0; }
