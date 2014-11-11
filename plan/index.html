@@ -12,7 +12,8 @@ published: true
 
 
 <div class='limiter pad4y clearfix'>
-{% for post in site.categories.plan %}
+{% assign sorted_pages = (site.categories.plan | sort: 'date') %}
+{% for post in sorted_pages %}
     <div class='keyline-all pad4 space-bottom4 project-tile'>
       <h2><a href="{{post.permalink}}">{{ post.title }}</a></h2>
       <h3>{{ post.subtitle }}</h3>
