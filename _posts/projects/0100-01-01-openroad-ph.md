@@ -12,3 +12,17 @@ Contribute to Open Data in the Philippines to support development and growth, pa
 <img src='/img/post-images/bohol.jpg' />
 
 We'll add links to the appropriate Tasking Manager jobs when ready.
+
+## About OpenRoads Philippines
+
+Improved Real Time Decision making of Infrastructure Investments for the Philippines by linking geospatial road network data with rich geo-tagged social data collected through mobile phones.
+ 
+### Project Snapshot
+ 
+Close-the-feedback loop for better Philippines road networks using decentralized/crowd-sourced geo-referenced image and video data from mobile devices and drones
+ 
+ 
+### Expected Results
+
+The OpenRoads web-platform harnesses an explosion of geo-imaging data by national+local governments and civil society to improve the delivery of national and local road networks for agricultural and tourism-led development
+
