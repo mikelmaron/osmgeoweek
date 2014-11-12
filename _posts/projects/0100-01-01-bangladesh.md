@@ -5,6 +5,11 @@ category: project
 layout: project
 tags: remote
 permalink: '/project/khulna/'
+aoi:
+  - north: 22.838844372140407
+    south: 22.485912942320958
+    east: 89.82078552246094
+    west: 89.38201904296875
 ---
 
 Mapping agricultural areas in Khulna District in Bangladesh, as part of USAID GeoCenter Mapping for Resilience.
