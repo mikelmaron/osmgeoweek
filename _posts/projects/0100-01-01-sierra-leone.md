@@ -5,7 +5,6 @@ category: project
 layout: project
 tags: remote
 permalink: '/project/ebola-agriculture/'
-published: false
 ---
 
 Identification and mapping of farmlands and orchards in the countries 
