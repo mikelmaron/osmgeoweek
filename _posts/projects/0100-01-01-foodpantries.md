@@ -3,7 +3,8 @@ title: Map Your Local Food Security
 subtitle: 
 category: project
 layout: project
-tags: survey
+tags:
+  - survey
 permalink: '/project/local-food-security/'
 ---
 

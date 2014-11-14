@@ -411,3 +411,12 @@ section:target { display:block!important; }
   float: left;
   margin: 5px;
 }
+.project-tile.ready {
+  border-color: #fce200;
+  border-width: 2px;
+  border-style: solid;
+}
+
+h1.ready {
+  color: #fce200;
+}
