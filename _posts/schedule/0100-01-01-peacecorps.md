@@ -4,7 +4,7 @@ title: "Mappy Hour at Peace Corps"
 day: Tuesday
 time: 5pm-8pm
 speaker: "Matthew McAllister"
-twitter: 
+twitter: peacecorps
 organization: Peace Corps
 permalink: '/event/peace-corps/'
 tags: [tuesday]
