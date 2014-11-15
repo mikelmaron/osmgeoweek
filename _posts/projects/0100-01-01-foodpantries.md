@@ -5,6 +5,7 @@ category: project
 layout: project
 tags:
   - survey
+  - ready
 permalink: '/project/local-food-security/'
 ---
 

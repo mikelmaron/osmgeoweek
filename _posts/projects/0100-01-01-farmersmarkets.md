@@ -3,7 +3,9 @@ title: Map local farmer’s markets and vendors
 subtitle: 
 category: project
 layout: project
-tags: survey
+tags:
+  - survey
+  - ready
 permalink: '/project/farmers-markets/'
 ---
 
