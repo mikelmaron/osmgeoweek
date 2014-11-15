@@ -3,7 +3,9 @@ title: Ebola and Agriculture
 subtitle: Mapping farmland in Ebola affected areas of West Africa
 category: project
 layout: project
-tags: remote
+tags:
+  - remote
+  - ready
 permalink: '/project/ebola-agriculture/'
 aoi:
   - north: 12.543839666237695
@@ -34,7 +36,10 @@ More info:
 * http://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx?NewsID=15276&LangID=E
 * http://reliefweb.int/report/liberia/acaps-briefing-note-ebola-west-africa-potential-impact-food-security-10-november-2014
 
-Links to Tasking Manager Projects coming soon
+
+<a href="http://tasks.hotosm.org/project/762">Tasking Manager Project</a>
+
+<a href="https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips#Interesting_Features_to_Map">West Africa Crop Features Guide</a>
 
 <!--
 Potential Tasking Manager Project Entries
