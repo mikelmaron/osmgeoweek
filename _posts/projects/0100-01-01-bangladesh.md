@@ -3,7 +3,9 @@ title: Khulna Agricultural Area, Bangladesh
 subtitle:
 category: project
 layout: project
-tags: remote
+tags:
+  - remote
+  - ready
 permalink: '/project/khulna/'
 aoi:
   - north: 22.838844372140407

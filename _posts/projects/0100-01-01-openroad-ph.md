@@ -5,6 +5,11 @@ category: project
 layout: project
 tags: remote
 permalink: '/project/open-road-ph/'
+aoi:
+  - north: 10.23654595930757
+    south: 9.503243879785233
+    east: 124.661865234375
+    west: 123.7225341796875
 ---
 
 Contribute to Open Data in the Philippines to support development and growth, particularly <a href="http://www.worldbank.org/en/news/press-release/2014/09/26/philippines-world-bank-approves-financing-to-strengthen-job-creation-and-inclusive-growth">World Bank financing</a> for more farm-to-market roads and the improvement of roads around tourism areas. Contribute by tracing farm to market roads in Bohol, Central Visayas, Philippines. 

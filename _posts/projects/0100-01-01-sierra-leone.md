@@ -5,6 +5,15 @@ category: project
 layout: project
 tags: remote
 permalink: '/project/ebola-agriculture/'
+aoi:
+  - north: 12.543839666237695
+    south: 10.466205555063882
+    east: -10.107421874999998
+    west: -8.360595703125
+  - north: 11.603812565783402
+    south: 10.12570928243104
+    east: -11.7828369140625
+    west: -14.88647460937
 ---
 
 Identification and mapping of farmlands and orchards in the countries 
