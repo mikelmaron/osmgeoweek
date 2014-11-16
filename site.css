@@ -411,7 +411,7 @@ section:target { display:block!important; }
   float: left;
   margin: 5px;
 }
-.project-tile.ready {
+.project-tile.ready, .highlight {
   border-color: #fce200;
   border-width: 2px;
   border-style: solid;
@@ -420,3 +420,4 @@ section:target { display:block!important; }
 h1.ready {
   color: #fce200;
 }
+

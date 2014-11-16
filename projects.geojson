@@ -10,7 +10,7 @@
       "type": "Feature",
       "properties": {
         "title": "{{ place.title }}",
-        "url": "{{site.baseurl}}{{place.url}}"
+        "url": "{{site.url}}{{place.url}}"
       },
       "geometry": {
         "type": "Polygon",

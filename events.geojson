@@ -9,7 +9,12 @@
       "properties": {
         "title": "{{ place.title }}",
         "url": "{{site.url}}{{place.url}}",
-        "marker-color": "#8cc250"
+        {% if place.highlight == true %}
+        "marker-color": "fce200",
+        "marker-size": "large"
+        {% else %}
+         "marker-color": "#8cc250"
+        {% endif %}
       },
       "geometry": {
         "type": "Point",
