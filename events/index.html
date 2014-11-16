@@ -50,7 +50,7 @@ dates:
       </div>
       <div class='col12 pad1y'>
         {% for item in site.tags[date.id] order:ascending %}
-          <div class='col12 clearfix'>
+          <div class='col12 clearfix {% if item.highlight == true %}highlight{% endif %}'>
             <div class='col12 pad2x'>
               <div class='headline clearfix space-bottom1'>
                 <h2 class='col8'><a href='{{item.permalink}}'>{{item.title}}</a></h2>
