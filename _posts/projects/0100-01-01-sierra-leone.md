@@ -18,6 +18,8 @@ aoi:
     west: -14.88647460937
 ---
 
+# Please note, this is a difficult task, and most suitable for very experienced OSM contributors. 
+
 Identification and mapping of farmlands and orchards in the countries 
 affected by the recent Ebola virus outbreak
 
@@ -37,7 +39,8 @@ More info:
 * http://reliefweb.int/report/liberia/acaps-briefing-note-ebola-west-africa-potential-impact-food-security-10-november-2014
 
 
-<a href="http://tasks.hotosm.org/project/762">Tasking Manager Project</a>
+<a href="http://tasks.hotosm.org/project/762">Guinea Tasking Manager Project</a><br/>
+<a href="http://tasks.hotosm.org/project/763">Sierra Leone Tasking Manager Project</a>
 
 <a href="https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips#Interesting_Features_to_Map">West Africa Crop Features Guide</a>
 
