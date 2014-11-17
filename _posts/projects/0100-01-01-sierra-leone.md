@@ -18,7 +18,7 @@ aoi:
     west: -14.88647460937
 ---
 
-# Please note, this is a difficult task, and most suitable for very experienced OSM contributors. 
+<h1 style="color:red">Please note, this is a difficult task, and most suitable for very experienced OSM contributors. </h1>
 
 Identification and mapping of farmlands and orchards in the countries 
 affected by the recent Ebola virus outbreak
