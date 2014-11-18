@@ -16,6 +16,7 @@ aoi:
     south: 10.12570928243104
     east: -11.7828369140625
     west: -14.88647460937
+excerpt: ""
 ---
 
 <h1 style="color:red">Please note, this is a difficult task, and most suitable for very experienced OSM contributors. </h1>
