@@ -3,22 +3,28 @@ layout: default
 ---
 
 <style>
-  body { margin:0; padding:0; }
   #map { height: 600px; width:100%; }
 .range {
   position:absolute;
   width:100%;
+  z-index: 1000;
   }
 .leaflet-top .leaflet-control-zoom {
   top:20px;
   }
 </style>
 
-<div id='map'></div>
+<div class='fill-green'>
+  <div class='liner clearfix center col12'>
+    <h2 class='pad2'>{{page.title}}</h2>
+  </div>
+</div>
+
 <input id='range' class='range' type='range' min='0' max='1.0' step='any' />
+<div id='map'></div>
 
 <script>
-//L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JvdW5kdHJ1dGgiLCJhIjoiS21jd2M3NCJ9.Oh7jfB2FCjkVHszCFLS-pg';
+L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JvdW5kdHJ1dGgiLCJhIjoiS21jd2M3NCJ9.Oh7jfB2FCjkVHszCFLS-pg';
 var map = L.mapbox.map('map');
 L.mapbox.tileLayer('{{page.mapboxid}}').addTo(map);
 
