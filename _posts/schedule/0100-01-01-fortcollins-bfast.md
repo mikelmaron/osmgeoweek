@@ -5,7 +5,7 @@ day: Thursday
 time: "2pm - 4:30pm"
 speaker: Sean Gillies	
 twitter: 
-organization: Fort Collins Geobreakfast	
+organization: OSM Fort Collins
 permalink: "/event/fortcollins-bfast/"
 tags:
   - thursday
