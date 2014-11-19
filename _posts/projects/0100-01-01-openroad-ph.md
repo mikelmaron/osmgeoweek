@@ -3,7 +3,9 @@ title: Open Road Philippines
 subtitle: Mapping Farm to Market and Tourist Roads
 category: project
 layout: project
-tags: remote
+tags:
+  - remote
+  - ready
 permalink: '/project/open-road-ph/'
 aoi:
   - north: 10.23654595930757
@@ -14,9 +16,9 @@ aoi:
 
 Contribute to Open Data in the Philippines to support development and growth, particularly <a href="http://www.worldbank.org/en/news/press-release/2014/09/26/philippines-world-bank-approves-financing-to-strengthen-job-creation-and-inclusive-growth">World Bank financing</a> for more farm-to-market roads and the improvement of roads around tourism areas. Contribute by tracing farm to market roads in Bohol, Central Visayas, Philippines. 
 
-<img src='/img/post-images/bohol.jpg' />
+<a href="http://tasks.hotosm.org/project/768">Tasking Manager Project</a>
 
-We'll add links to the appropriate Tasking Manager jobs when ready.
+<img src='/img/post-images/bohol.jpg' />
 
 ## About OpenRoads Philippines
 
