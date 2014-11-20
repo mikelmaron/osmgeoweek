@@ -18,7 +18,8 @@ project-id: open-road-ph
 
 Contribute to Open Data in the Philippines to support development and growth, particularly <a href="http://www.worldbank.org/en/news/press-release/2014/09/26/philippines-world-bank-approves-financing-to-strengthen-job-creation-and-inclusive-growth">World Bank financing</a> for more farm-to-market roads and the improvement of roads around tourism areas. Contribute by tracing farm to market roads in Bohol, Central Visayas, Philippines. 
 
-<a href="http://tasks.hotosm.org/project/768">Tasking Manager Project</a>
+<a href="http://tasks.hotosm.org/project/768">Tasking Manager Project</a><br/>
+<a href="/swipe/open-road-ph">Before / After Swipe</a>
 
 <img src='/img/post-images/bohol.jpg' />
 
