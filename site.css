@@ -163,7 +163,7 @@ input[type='submit'],
   .sponsor.osmus         { background-image: url(img/logos/osmus.png); width: 275px; height: 127px; }
   .sponsor.missingmaps   { background-image: url(img/logos/missingmaps.png); width: 218px; height: 86px; }
   .sponsor.usaid         { background-image: url(img/logos/usaid.png); width: 218px; height: 56px; }
-
+  .sponsor.kll           { background-image: url(img/logos/kll.jpg); width: 147px; height: 100px; }
   /* Diamond */
   .sponsor.craigslist    { background-position:-520px 0; }
 
