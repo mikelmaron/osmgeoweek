@@ -20,8 +20,17 @@ layout: default
   </div>
 </div>
 
+
 <input id='range' class='range' type='range' min='0' max='1.0' step='any' />
 <div id='map'></div>
+
+{% if page.animation == true %}
+<div>
+<center>
+    <a href="https://s3.amazonaws.com/osmgeoweek/animations/osmgeoweek_{{page.project-id}}_animation.gif"><img width="800" src="https://s3.amazonaws.com/osmgeoweek/animations/osmgeoweek_{{page.project-id}}_animation.gif" /></a>
+</center>
+</div>
+{% endif %}
 
 <iframe src="http://www.charted.co/?%7B%22dataUrl%22%3A%22http%3A%2F%2Fosmgeoweek.org%2Ffiles%2Fstats%2Fspaced%2Fosmgeoweek_{{page.chart}}_basic_osm_buildings.csv%22%2C%22charts%22%3A%5B%7B%22type%22%3A%22line%22%2C%22rounding%22%3A%22off%22%2C%22title%22%3A%22Buildings%22%7D%5D%7D" width="50%" height="600" style="float:left"></iframe>
 <iframe src="http://www.charted.co/?%7B%22dataUrl%22%3A%22http%3A%2F%2Fosmgeoweek.org%2Ffiles%2Fstats%2Fspaced%2Fosmgeoweek_{{page.chart}}_basic_osm_roads.csv%22%2C%22charts%22%3A%5B%7B%22type%22%3A%22line%22%2C%22rounding%22%3A%22off%22%2C%22title%22%3A%22Roads%20(km)%22%7D%5D%7D" width="50%" height="600" style="float:right"></iframe>
