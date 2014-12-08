@@ -2,12 +2,70 @@
 layout: default
 title: Result
 published: true
+tweets:
+  - https://twitter.com/KendraSpeak/status/540139158434349056
+  - https://twitter.com/usembassydhaka/status/536369902022844416
+images:
+  - img: "https://pbs.twimg.com/media/B3NcLWKIIAAvclW.jpg"
+    url: "https://twitter.com/geoboliviaide/status/536874131820912640"
+  - img: "https://pbs.twimg.com/media/B3NcJ8yIcAAbrIQ.jpg"
+    url: "https://twitter.com/geoboliviaide/status/536874131820912640"
+  - img: "https://pbs.twimg.com/media/B3EDk8SCEAAmZcY.jpg"
+    url: "https://twitter.com/596Acres/status/536215623538589696"
+  - img: "https://pbs.twimg.com/media/B3Do1gwCcAEV5JL.jpg"
+    url: "https://twitter.com/geomantic/status/536184363520909312"
+  - img: "https://pbs.twimg.com/media/B3FlLxKCAAA5nuY.jpg"
+    url: "https://twitter.com/51114u9/status/536321985513807872"
+  - img: "https://pbs.twimg.com/media/B3AeJzrIAAAjJpm.jpg"
+    url: "https://twitter.com/MapGive/status/535961510397616129"
+  - img: "https://pbs.twimg.com/media/B3AVprPIIAA_r2f.jpg"
+    url: "https://twitter.com/MapGive/status/535952161952509952"
+  - img: "https://pbs.twimg.com/media/B2_5bYZIEAEk3Nl.jpg"
+    url: "https://twitter.com/CIRUMBOS/status/535921146026528768"
+  - img: "https://o.twimg.com/2/proxy.jpg?t=HBgtaHR0cDovL3N0YXRpYy5vdy5seS9waG90b3Mvb3JpZ2luYWwvN0ZGclEuanBnFMAHFNAFABYAEgA&s=VZqWr5YX_UXpUeQC229YAZraenvuJPMNrKLGtrywRmo"
+    url: "https://twitter.com/MapGive/status/535884176277639168"
 ---
 
-<div class='fill-blue'>
-  <div class='liner clearfix center fill-darken3 dark col12'>
+<div class='fill-green'>
+  <div class='liner clearfix center col12'>
     <h2 class='pad2'>OSMGeoWeek Results</h2>
   </div>
 </div>
 
+<div class='fill-blue'>
+  <div class='liner clearfix center fill-darken3 dark col12'>
+    <h2 class='pad2'>Global Results</h2>
+  </div>
+</div>
+
 <iframe src="/neis-one/" width="100%" height="600"></iframe>
+
+<div class='fill-blue'>
+  <div class='liner clearfix center fill-darken3 dark col12'>
+    <h2 class='pad2'>Scenes from OSMGeoWeek</h2>
+  </div>
+</div>
+
+<div id="photos">
+  {% for image in page.images %}
+    <a href="{{image.url}}"><img  src="{{image.img}}"></a>
+  {% endfor %} 
+</div>    
+
+<!-- key tweets --> 
+
+<!-- TeachOSM and invitation to more -->
+
+<!-- nyamira details. header link to all projects -->
+
+<div class='fill-blue'>
+  <div class='liner clearfix center fill-darken3 dark col12'>
+    <h2 class='pad2'>Highlighted Project: Nyamira</h2>
+  </div>
+</div>
+
+<div>
+ <img width="33%" src="https://s3.amazonaws.com/osmgeoweek/animations/osmgeoweek_nyamira_animation.gif" />
+ <iframe src="http://www.charted.co/?%7B%22dataUrl%22%3A%22http%3A%2F%2Fosmgeoweek.org%2Ffiles%2Fstats%2Fspaced%2Fosmgeoweek_nyamira_basic_osm_buildings.csv%22%2C%22charts%22%3A%5B%7B%22type%22%3A%22line%22%2C%22rounding%22%3A%22off%22%2C%22title%22%3A%22Buildings%22%7D%5D%7D" width="33%" height="600" style="float:left"></iframe>
+ <iframe src="http://www.charted.co/?%7B%22dataUrl%22%3A%22http%3A%2F%2Fosmgeoweek.org%2Ffiles%2Fstats%2Fspaced%2Fosmgeoweek_nyamira_basic_osm_roads.csv%22%2C%22charts%22%3A%5B%7B%22type%22%3A%22line%22%2C%22rounding%22%3A%22off%22%2C%22title%22%3A%22Roads%20(km)%22%7D%5D%7D" width="33%" height="600" style="float:right"></iframe>
+</div>
