@@ -2893,7 +2893,8 @@ var printed_changesets=5439;
 			else{ map.fitBounds(layerChangesets.getBounds()); }
 
 			if("osmgeoweek" != ""){
-				document.getElementById('info-stats').innerHTML = "<strong>Information for #osmgeoweek</strong><br>Number of OSM Contributors: "+numberWithCommas(contributors)+"<br>Total number of Changesets: "+numberWithCommas(num_changesets)+"<div class=\"smallText\">(Display Limit is 4,000 Changesets)<br><input type=\"checkbox\" id=\"cbhidelarge\" name=\"cbhidelarge\" value=\"hide\" onchange=\"hideLargeChangesets();return false;\"><label for=\"cbhidelarge\">hide large Changesets</label></div>";
+				document.getElementById('info-stats').innerHTML = "<strong>Information for #osmgeoweek</strong><br>Number of OSM Contributors: "+numberWithCommas(contributors)+"<br>Total number of Changesets: "+numberWithCommas(num_changesets)+"<div class=\"smallText\">(Display Limit is 4,000 Changesets)<br><input type=\"checkbox\" checked id=\"cbhidelarge\" name=\"cbhidelarge\" value=\"hide\" onchange=\"hideLargeChangesets();return false;\"><label for=\"cbhidelarge\">hide large Changesets</label></div>";
+        hideLargeChangesets();
 			}
 			
 			if(num_changesets > 0){
