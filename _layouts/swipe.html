@@ -32,8 +32,10 @@ layout: default
 </div>
 {% endif %}
 
+{% if page.chart %}
 <iframe src="http://www.charted.co/?%7B%22dataUrl%22%3A%22http%3A%2F%2Fosmgeoweek.org%2Ffiles%2Fstats%2Fspaced%2Fosmgeoweek_{{page.chart}}_basic_osm_buildings.csv%22%2C%22charts%22%3A%5B%7B%22type%22%3A%22line%22%2C%22rounding%22%3A%22off%22%2C%22title%22%3A%22Buildings%22%7D%5D%7D" width="50%" height="600" style="float:left"></iframe>
 <iframe src="http://www.charted.co/?%7B%22dataUrl%22%3A%22http%3A%2F%2Fosmgeoweek.org%2Ffiles%2Fstats%2Fspaced%2Fosmgeoweek_{{page.chart}}_basic_osm_roads.csv%22%2C%22charts%22%3A%5B%7B%22type%22%3A%22line%22%2C%22rounding%22%3A%22off%22%2C%22title%22%3A%22Roads%20(km)%22%7D%5D%7D" width="50%" height="600" style="float:right"></iframe>
+{% endif %}
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JvdW5kdHJ1dGgiLCJhIjoiS21jd2M3NCJ9.Oh7jfB2FCjkVHszCFLS-pg';
 var map = L.map('map');
