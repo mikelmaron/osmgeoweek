@@ -45,6 +45,22 @@ div.tooltip {
     opacity: 0.7;
 }
 
+//responsive svg: http://stackoverflow.com/questions/16265123/resize-svg-when-window-is-resized-in-d3-js
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
 </style>
 <body>
 <script src="http://d3js.org/d3.v3.js"></script>
@@ -54,6 +70,13 @@ div.tooltip {
 var margin = {top: 50, right: 50, bottom: 60, left: 90},
     width = 550 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
+    
+    
+d3.select(window).on('resize', resize); 
+
+function resize() {
+	console.log('resizing');
+}
 
 var x = d3.time.scale()
     .range([0, width]);
@@ -81,16 +104,36 @@ var line = d3.svg.line()
     .x(function(d) { return x(d.date); })
     .y(function(d) { return y(d.count); });
 
-var div = d3.select("body").append("div")   
-    .attr("class", "tooltip")               
-    .style("opacity", 0);
 
+/*
+older code before responsive design
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+*/
 
+//responsive svg: http://stackoverflow.com/questions/16265123/resize-svg-when-window-is-resized-in-d3-js
+var svg = d3.select("body").append("div")
+   .classed("svg-container", true) //container class to make it responsive
+   .append("svg")
+   //responsive SVG needs these 2 attributes and no width and height attr
+   .attr("preserveAspectRatio", "xMinYMin meet")
+   //need to play around with last two viewBox values to find the right default
+   .attr("viewBox", "0 0 550 500")
+   //class to make it responsive
+   .classed("svg-content-responsive", true)
+   .append("g")
+   //adds the margins to make enough room for axis, title, and labels
+   .attr("transform", "translate(" + margin.left + "," + margin.top + ")"); 
+   
+   
+//had to mode tooltip code below var svg code to make sure it was above other elements
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
+    
 //The format in the CSV, which d3 will read
 var parseDate = d3.time.format("%Y-%m-%d %X");
 
@@ -153,7 +196,8 @@ var g = svg.selectAll()
         .attr("class", "x")
         .attr("id", "dashedLine")
         .style("stroke", "steelblue")
-        .style("stroke-dasharray", "3,3")
+        .style("stroke-width", "2px")
+        .style("stroke-dasharray", "10,5")
         .style("opacity", 0)
         .attr("x1", function(d) { return x(d.date); })
         .attr("y1", function(d) { return y(d.count); })
@@ -166,7 +210,8 @@ var g = svg.selectAll()
         .attr("class", "y")
         .attr("id", "dashedLine")
         .style("stroke", "steelblue")
-        .style("stroke-dasharray", "3,3")
+        .style("stroke-width", "2px")
+        .style("stroke-dasharray", "10,5")
         .style("opacity", 0)
         .attr("x1", function(d) { return x(d.date); })
         .attr("y1", function(d) { return y(d.count); })
