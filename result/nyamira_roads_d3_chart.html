@@ -183,6 +183,15 @@ var g = svg.selectAll()
         .attr("r", 4.5)
         .attr("cx", function(d) { return x(d.date); })
         .attr("cy", function(d) { return y(d.total_km); });
+        
+	//Invisible circles to make the actual hover area larger
+	 g.append("circle")
+         //circle radius is increased
+        .attr("class", "invisible")
+        .style("opacity", 0)
+        .attr("r", 10)
+        .attr("cx", function(d) { return x(d.date); })
+        .attr("cy", function(d) { return y(d.total_km); });
    
    //The horizontal dashed line that appears when a circle marker is moused over
 	 g.append("line")
@@ -280,7 +289,7 @@ svg.append("text")      // text label for chart Title
         .style("text-anchor", "middle")
 		.style("font-size", "16px") 
         .style("text-decoration", "underline") 
-        .text("Nyamira: roads");
+        .text("Nyamira: Roads");
 
 
 svg.append("g")
